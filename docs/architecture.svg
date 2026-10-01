@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1100" height="420" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+  <g font-size="15" text-anchor="middle" fill="#0f172a">
+    <rect x="30" y="150" width="200" height="110" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="130" y="195" font-weight="700">Web (Next.js)</text><text x="130" y="222" font-size="13" fill="#64748b">TypeScript, Tailwind</text><text x="130" y="242" font-size="13" fill="#64748b">engine di browser</text>
+    <rect x="300" y="30" width="520" height="360" rx="16" fill="#fff" stroke="#0f766e" stroke-width="2"/><text x="560" y="62" font-weight="700" fill="#0f766e">API (FastAPI)</text>
+    <rect x="325" y="85" width="230" height="64" rx="10" fill="#f1f5f9"/><text x="440" y="112" font-weight="600">api/</text><text x="440" y="132" font-size="13" fill="#64748b">datasets, pipelines, export</text>
+    <rect x="565" y="85" width="230" height="64" rx="10" fill="#f1f5f9"/><text x="680" y="112" font-weight="600">validators/</text><text x="680" y="132" font-size="13" fill="#64748b">aturan email, telepon, tanggal</text>
+    <rect x="325" y="165" width="470" height="80" rx="10" fill="#ccfbf1"/><text x="560" y="197" font-weight="700">pipelines/engine</text><text x="560" y="220" font-size="13" fill="#115e59">profiling, issue, skor, transformasi deterministik</text>
+    <rect x="325" y="262" width="230" height="110" rx="10" fill="#f1f5f9"/><text x="440" y="290" font-weight="600">ai/ (LLMProvider)</text><text x="440" y="314" font-size="13" fill="#64748b">MockLLMProvider</text><text x="440" y="334" font-size="13" fill="#64748b">OpenAIProvider</text><text x="440" y="354" font-size="13" fill="#64748b">LocalLLMProvider</text>
+    <rect x="565" y="262" width="230" height="110" rx="10" fill="#f1f5f9"/><text x="680" y="290" font-weight="600">services/ + models/</text><text x="680" y="314" font-size="13" fill="#64748b">loader, audit, SQLAlchemy</text><text x="680" y="334" font-size="13" fill="#64748b">upload aman (UUID)</text>
+    <rect x="890" y="80" width="180" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="980" y="120" font-weight="700">PostgreSQL</text><text x="980" y="146" font-size="13" fill="#64748b">metadata (SQLite lokal)</text>
+    <rect x="890" y="240" width="180" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="980" y="280" font-weight="700">data/</text><text x="980" y="306" font-size="13" fill="#64748b">uploads dan processed</text>
+  </g>
+  <g stroke="#0f766e" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M234 205h62M824 125h62M824 285h62"/></g>
+</svg>

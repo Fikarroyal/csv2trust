@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="190" viewBox="0 0 1100 190" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1100" height="190" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+  <g font-size="17" font-weight="600" fill="#0f172a" text-anchor="middle">
+    <rect x="30" y="50" width="170" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="115" y="88">1. Upload</text><text x="115" y="114" font-size="13" font-weight="400" fill="#64748b">CSV, XLSX, XLS</text>
+    <rect x="240" y="50" width="170" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="325" y="88">2. Profile</text><text x="325" y="114" font-size="13" font-weight="400" fill="#64748b">tipe, missing, stats</text>
+    <rect x="450" y="50" width="170" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="535" y="88">3. Clean</text><text x="535" y="114" font-size="13" font-weight="400" fill="#64748b">pilih transformasi</text>
+    <rect x="660" y="50" width="170" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/><text x="745" y="88">4. Validate</text><text x="745" y="114" font-size="13" font-weight="400" fill="#64748b">skor sebelum/sesudah</text>
+    <rect x="870" y="50" width="200" height="90" rx="14" fill="#0f766e"/><text x="970" y="88" fill="#fff">5. Export</text><text x="970" y="114" font-size="13" font-weight="400" fill="#ccfbf1">CSV, XLSX, Parquet, JSON, Python</text>
+  </g>
+  <g stroke="#0f766e" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M204 95h32M414 95h32M624 95h32M834 95h32"/></g>
+</svg>
