@@ -15,7 +15,7 @@
 
 ## <img src="docs/icons/file-spreadsheet.svg" width="26" align="top"> Overview
 
-CSV2Trust membaca file CSV atau Excel, mendeteksi masalah kualitas data, merekomendasikan transformasi, menjalankannya secara deterministik, lalu menghasilkan **pipeline yang bisa dijalankan ulang** beserta laporan kualitas.
+CSV2Trust membaca file CSV atau Excel, mendeteksi masalah kualitas data, merekomendasikan transformasi, menjalankannya secara deterministik, lalu menghasilkan **pipeline yang bisa dijalankan ulang** beserta laporan yang berkualitas.
 
 Contoh masalah yang ditangani:
 
