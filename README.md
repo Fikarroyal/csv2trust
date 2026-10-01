@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="CSV2Trust: From Messy Spreadsheet to Trusted Data Pipeline." width="100%">
-</p>
-
-<p align="center">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-14-0f172a?logo=nextdotjs&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white">
   <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-3-06b6d4?logo=tailwindcss&logoColor=white">
@@ -20,8 +16,6 @@
 ## <img src="docs/icons/file-spreadsheet.svg" width="26" align="top"> Overview
 
 CSV2Trust membaca file CSV atau Excel, mendeteksi masalah kualitas data, merekomendasikan transformasi, menjalankannya secara deterministik, lalu menghasilkan **pipeline yang bisa dijalankan ulang** beserta laporan kualitas.
-
-<p align="center"><img src="docs/pipeline.svg" alt="Upload, Profile, Clean, Validate, Export" width="100%"></p>
 
 Contoh masalah yang ditangani:
 
@@ -51,24 +45,6 @@ Contoh masalah yang ditangani:
 ## <img src="docs/icons/server.svg" width="26" align="top"> Arsitektur
 
 <p align="center"><img src="docs/architecture.svg" alt="Arsitektur CSV2Trust" width="100%"></p>
-
-```
-csv2trust/
-├── apps/
-│   ├── web/            Next.js, TypeScript, Tailwind, engine di browser
-│   └── api/            FastAPI
-│       ├── app/api/        router: datasets, pipelines, export
-│       ├── app/pipelines/  engine deterministik (profiling, skor, transformasi)
-│       ├── app/validators/ aturan validasi dan normalisasi
-│       ├── app/ai/         LLMProvider: Mock, OpenAI, Local
-│       ├── app/services/   loader file, audit log
-│       ├── app/models/     tabel SQLAlchemy
-│       └── tests/          pytest
-├── data/samples/       dataset contoh (11 baris dan 12.100 baris)
-├── docs/               gambar dan ikon README
-├── docker-compose.yml
-└── Makefile
-```
 
 ## <img src="docs/icons/rocket.svg" width="26" align="top"> Quick Start
 
@@ -188,20 +164,3 @@ python3 -m pytest -q
 ```
 
 Tes mencakup alur upload, profiling, deteksi masalah, cleaning, validasi, ekspor (CSV, XLSX, Parquet, pipeline, laporan), menjalankan ulang pipeline, serta penanganan file tidak valid.
-
-## <img src="docs/icons/container.svg" width="26" align="top"> Sample Dataset
-
-| File | Isi |
-|---|---|
-| `data/samples/messy_customers.csv` | 11 baris untuk demo cepat |
-| `data/samples/messy_customers_12k.csv` | 12.100 baris sintetis dengan email invalid, tanggal campur, currency campur, telepon campur, missing, outlier, dan sekitar 1.100 duplikat |
-
-Seluruh data adalah data sintetis, bukan data pribadi nyata.
-
-## <img src="docs/icons/map.svg" width="26" align="top"> Roadmap
-
-| Status | Item |
-|---|---|
-| Selesai | Frontend dengan engine di browser, backend FastAPI, pipeline JSON dan Python, skor kualitas, tes otomatis |
-| Berikutnya | Hubungkan frontend ke API, dashboard dan riwayat pipeline, Dataset Explorer dengan TanStack Table |
-| Rencana | Great Expectations, DuckDB, migrasi Alembic, tabel terpisah untuk issue dan validasi, Dockerfile frontend, fuzzy matching untuk near duplicate |
